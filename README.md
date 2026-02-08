@@ -6,14 +6,14 @@ LangGraph-based system that coordinates four specialised agents to automate rese
 
 ```
 ┌─────────────────────────────────────────────────────────────┐
-│                    LangGraph Orchestrator                    │
+│                    LangGraph Orchestrator                   │
 ├─────────────────────────────────────────────────────────────┤
 │                                                             │
-│  Planner ──▶ Search ──▶ Code ──▶ Synthesis                 │
+│  Planner ──▶ Search ──▶ Code ──▶ Synthesis                  │
 │                                                             │
 │  Breaks the     Tavily +   Sandboxed      Combines          │
-│  query into     arXiv      Python exec    everything         │
-│  subtasks       lookups                   into a report      │
+│  query into     arXiv      Python exec    everything        │
+│  subtasks       lookups                   into a report     |
 │                                                             │
 └─────────────────────────────────────────────────────────────┘
 ```
