@@ -1,5 +1,5 @@
 # Environment variables
-.env
+.env*
 
 # Service account keys - NEVER commit these
 service-account-key.json
